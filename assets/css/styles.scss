@@ -1,0 +1,29 @@
+@import 'scss/variables';
+@import 'scss/reset.scss';
+
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    #sublinhado{
+        padding: 20px;
+        height: 8px;;
+    }
+}
+header{
+    display: flex;
+    flex-direction: column;
+    #logo{
+        align-self: center;
+        width: 500px;
+    }
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    #rodape{
+        width: 100%;
+        align-self: flex-end;
+    }
+}
