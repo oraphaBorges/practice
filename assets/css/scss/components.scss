@@ -19,8 +19,9 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    padding: 20px 50px;
+    padding: 20px 100px;
     .objetivos-title{
+        width: 300px;
         h1{
             font-size: 30px;
         }
@@ -39,7 +40,7 @@
         flex-wrap: wrap;
         justify-content: space-around;
         .objetivos-items-item{
-            max-width: 185px;
+            max-width: 250px;
             margin: 5px;
             h1{
                 font-size: 20px;
@@ -61,10 +62,11 @@
         height: 7px;;
     }
     .objetivos{
-        flex-direction: column; 
+        flex-direction: column;
+        padding: 20px 30px;
         .objetivos-items{
             .objetivos-items-item{
-                max-width: 350px;
+                width: 450px;
             }
         }
     }

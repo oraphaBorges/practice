@@ -33,22 +33,24 @@ footer {
   display: flex;
   flex-direction: row;
   width: 100%;
-  padding: 20px 50px; }
-  .objetivos .objetivos-title h1 {
-    font-size: 30px; }
-  .objetivos .objetivos-title h2 {
-    font-size: 12px; }
-  .objetivos .objetivos-title p {
-    color: #264653;
-    font-size: 100px;
-    margin-top: -100px; }
+  padding: 20px 100px; }
+  .objetivos .objetivos-title {
+    width: 300px; }
+    .objetivos .objetivos-title h1 {
+      font-size: 30px; }
+    .objetivos .objetivos-title h2 {
+      font-size: 12px; }
+    .objetivos .objetivos-title p {
+      color: #264653;
+      font-size: 100px;
+      margin-top: -100px; }
   .objetivos .objetivos-items {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around; }
     .objetivos .objetivos-items .objetivos-items-item {
-      max-width: 185px;
+      max-width: 250px;
       margin: 5px; }
       .objetivos .objetivos-items .objetivos-items-item h1 {
         font-size: 20px; }
@@ -65,8 +67,9 @@ footer {
     height: 7px; }
 
   .objetivos {
-    flex-direction: column; }
+    flex-direction: column;
+    padding: 20px 30px; }
     .objetivos .objetivos-items .objetivos-items-item {
-      max-width: 350px; } }
+      width: 450px; } }
 
 /*# sourceMappingURL=styles.css.map */
