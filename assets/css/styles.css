@@ -27,12 +27,46 @@ footer {
   width: 560px;
   height: 315px; }
 
+.objetivos {
+  background-color: #fa8334;
+  color: #f8f9fa;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 20px 50px; }
+  .objetivos .objetivos-title h1 {
+    font-size: 30px; }
+  .objetivos .objetivos-title h2 {
+    font-size: 12px; }
+  .objetivos .objetivos-title p {
+    color: #264653;
+    font-size: 100px;
+    margin-top: -100px; }
+  .objetivos .objetivos-items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+    .objetivos .objetivos-items .objetivos-items-item {
+      max-width: 185px;
+      margin: 5px; }
+      .objetivos .objetivos-items .objetivos-items-item h1 {
+        font-size: 20px; }
+      .objetivos .objetivos-items .objetivos-items-item p {
+        color: #eff1f4;
+        font-size: 13px; }
+
 @media screen and (max-width: 600px) {
   #video {
     width: 450px;
     height: 250px; }
 
   #sublinhado {
-    height: 7px; } }
+    height: 7px; }
+
+  .objetivos {
+    flex-direction: column; }
+    .objetivos .objetivos-items .objetivos-items-item {
+      max-width: 350px; } }
 
 /*# sourceMappingURL=styles.css.map */

@@ -13,6 +13,45 @@
     height:315px;
 }
 
+.objetivos{
+    background-color: $orange;
+    color:$text-light;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 20px 50px;
+    .objetivos-title{
+        h1{
+            font-size: 30px;
+        }
+        h2{
+            font-size: 12px;
+        }
+        p{
+            color:$chacal;
+            font-size: 100px;
+            margin-top: -100px;
+        }
+    }    
+    .objetivos-items{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        .objetivos-items-item{
+            max-width: 185px;
+            margin: 5px;
+            h1{
+                font-size: 20px;
+            }
+            p{
+                color: darken($text-light,3%);
+                font-size: 13px;
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 600px) {
     #video{
         width:450px;
@@ -20,5 +59,13 @@
     }
     #sublinhado{
         height: 7px;;
+    }
+    .objetivos{
+        flex-direction: column; 
+        .objetivos-items{
+            .objetivos-items-item{
+                max-width: 350px;
+            }
+        }
     }
 }
