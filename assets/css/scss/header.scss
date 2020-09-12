@@ -1,0 +1,15 @@
+header{
+    display: flex;
+    flex-direction: column;
+    #logo{
+        align-self: center;
+        width: 500px;
+    }
+}
+@media screen and (max-width: 600px) {
+    header{
+        #logo{
+            width: 350px;
+        }
+    }
+}
