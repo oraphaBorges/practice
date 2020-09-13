@@ -65,7 +65,65 @@ layout: base
 </section>
 
 <section class="servico">
-
+    <div class="servico-title container">
+        <h2>Inovação e Educação</h2>
+        <h1>Nossos Serviços</h1>
+        <p>_</p>
+    </div>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="width: 100%;">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="servico-img" src="assets/imgs/servicos/fluxo_de_trabalho.svg" alt="slide Fluxo de Trabalho">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Fluxo de Trabalho</h5>
+                <p>Utilizamos do método SCRUM e trabalhamos com Sprints de 14 dias de duração para a realização das nossas atividades</p>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img class="servico-img" src="assets/imgs/servicos/audio_video.svg" alt="slide Áudio e Vídeo">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Áudio e Vídeo</h5>
+                <p>Para abranger o maior número de formatos que podem ser utilizados, a nossa equipe de media disponibiliza nossos formatos tanto para edição como para produção em nosso estúdio.</p>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img class="servico-img" src="assets/imgs/servicos/estudio.svg" alt="slide Estúdio">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Estúdio</h5>
+                <p>Você precisa produzir vídeos com uma estrutura peculiar ou com recursos muito específicos? O serviço de estúdo do programa pode te ajudar</p>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img class="servico-img" src="assets/imgs/servicos/texto_imagem.svg" alt="slide Texto e Imagem">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Texto e Imagem</h5>
+                <p>Equipe responsável pela criação de conteúdo de texto e imagem.</p>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img class="servico-img" src="assets/imgs/servicos/eventos.svg" alt="slide Evento Virtual">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Evento Virtual</h5>
+                <p>Atuaçõa no auxilio na realização de eventos virtuai, como semanas acadêmicas.</p>
+              </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
 </section>
 
 <section class="contato">
