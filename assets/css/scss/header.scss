@@ -1,15 +1,36 @@
 header{
     display: flex;
     flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    height: 50vh;  
+
     #logo{
         align-self: center;
         width: 500px;
     }
+    .subtitle{
+        color: $cg-blue;
+        font-size: 15px;
+    }
+    .menu{
+        height: 30px;
+        width: 100%;
+        background-color: $corA;
+    }
 }
 @media screen and (max-width: 600px) {
     header{
+        height: 30vh;  
         #logo{
             width: 300px;
+        }
+        .subtitle{
+            margin: 0 20px;
+            font-size: 12px;
         }
     }
 }

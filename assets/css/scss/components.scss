@@ -2,20 +2,59 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    .capa-yellow{
+        width: 100%;
+        margin-top: -80px;
+        margin-bottom: -80px;
+    }
+    .capa-white{
+        width: 100%;
+        margin-top: -70px;
+        margin-bottom: -70px;
+    }
 }
 
-#sublinhado{
-    height: 8px;;
+.video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $corB;
+    width: 100%;
+    padding-bottom: 30px;
+    h1{
+        padding: 10px;
+        padding-bottom: 30px;
+        color: $corA;
+    }
+
+    #video{
+        width:760px;
+        height:428px;
+    }
 }
 
-#video{
-    width:560px;
-    height:315px;
+.apresentacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    min-height: 350px;
+    padding: 100px;
+    article{
+        align-self: center;
+        h1{
+            color: $corD;
+        }
+        p{
+        }
+    }
 }
+
 .objetivos-container{
-    background-color: $orange;
+    background-color: $corC;
     color:$text-light;
     width: 100%;
+    padding-top: 30px;
     .objetivos{
         display: flex;
         flex-direction: row;
@@ -61,14 +100,58 @@
 
 }
 
+.frase{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: $corE;
+    color: $corA;
+    width: 100%;
+    height: 300px;
+    h1{
+        strong{
+            color: $corD;
+        }
+    }
+}
+.equipe{   
+    background-color: $corD;
+    color:$text-light;
+    width: 100%;
+    height: 300px;
+}
+.projetos{
+    background-color: $corE;
+    width: 100%;
+    height: 300px;
+}
+.contato{
+    background-color: $corE;
+    color:$text-light;
+    width: 100%;
+    height: 300px;
+}
+
 @media screen and (max-width: 600px) {
-    #video{
-        width:400px;
-        height:450px;
+    .video{
+        h1{
+            font-size: 25px;
+            padding: 5px;
+        }
+        #video{
+            width:400px;
+            height:450px;
+        }
+        #sublinhado{
+            height: 7px;;
+        }
     }
-    #sublinhado{
-        height: 7px;;
+
+    .apresentacao{
+        padding: 30px;
     }
+
     .objetivos-container{
         .objetivos{
             flex-direction: column;
@@ -81,13 +164,22 @@
         }
     }
 }
-
 @media screen and (max-width: 480px) {
-    #video{
-        width:300px;
-        height:150px;
+    .video{
+        #video{
+            width:370px;
+            height:209px;
+        }
     }
-    #sublinhado{
-        height: 5px;;
+}
+@media screen and (max-width: 375px) {
+    .video{
+        #video{
+            width:300px;
+            height:169px;
+        }
+        #sublinhado{
+            height: 5px;;
+        }
     }
 }
