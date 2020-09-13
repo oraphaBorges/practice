@@ -61,6 +61,9 @@ footer {
         .objetivos-container .objetivos .objetivos-items .objetivos-items-item p {
           color: #eff1f4;
           font-size: 13px; }
+        .objetivos-container .objetivos .objetivos-items .objetivos-items-item span img {
+          width: 32px;
+          filter: brightness(0) invert(1); }
 
 @media screen and (max-width: 600px) {
   #video {

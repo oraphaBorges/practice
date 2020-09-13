@@ -49,6 +49,12 @@
                     color: darken($text-light,3%);
                     font-size: 13px;
                 }
+                span{
+                    img{
+                        width: 32px;
+                        filter: brightness(0) invert(1);
+                    }
+                }
             }
         }
     }
