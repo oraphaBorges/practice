@@ -69,7 +69,6 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  align-content: center;
   min-height: 350px;
   padding: 100px; }
   .apresentacao article {
@@ -117,7 +116,6 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  align-content: center;
   background-color: #f8f9fa;
   color: #264653;
   width: 100%;
@@ -125,14 +123,12 @@ footer {
   .frase h1 strong {
     color: #2f7b9a; }
 
-.equipe {
+.servico {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: space-between;
-  align-content: space-between;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
   background-color: #2f7b9a;
-  color: #f8f9fa;
   width: 100%;
   height: 300px; }
 
@@ -141,7 +137,6 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  align-content: center;
   background-color: #f8f9fa;
   color: #264653;
   width: 100%;
