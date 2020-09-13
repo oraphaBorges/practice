@@ -57,8 +57,8 @@
 
 @media screen and (max-width: 600px) {
     #video{
-        width:450px;
-        height:250px;
+        width:400px;
+        height:450px;
     }
     #sublinhado{
         height: 7px;;
@@ -73,5 +73,15 @@
                 }
             }
         }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #video{
+        width:300px;
+        height:150px;
+    }
+    #sublinhado{
+        height: 5px;;
     }
 }
