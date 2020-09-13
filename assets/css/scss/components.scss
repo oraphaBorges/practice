@@ -12,45 +12,47 @@
     width:560px;
     height:315px;
 }
-
-.objetivos{
+.objetivos-container{
     background-color: $orange;
     color:$text-light;
-    display: flex;
-    flex-direction: row;
     width: 100%;
-    padding: 20px 100px;
-    .objetivos-title{
-        width: 300px;
-        h1{
-            font-size: 30px;
-        }
-        h2{
-            font-size: 12px;
-        }
-        p{
-            color:$chacal;
-            font-size: 100px;
-            margin-top: -100px;
-        }
-    }    
-    .objetivos-items{
+    .objetivos{
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        .objetivos-items-item{
-            max-width: 250px;
-            margin: 5px;
+        padding: 10px 50px;
+        .objetivos-title{
+            width: 300px;
             h1{
-                font-size: 20px;
+                font-size: 30px;
+            }
+            h2{
+                font-size: 12px;
             }
             p{
-                color: darken($text-light,3%);
-                font-size: 13px;
+                color:$chacal;
+                font-size: 100px;
+                margin-top: -100px;
+            }
+        }    
+        .objetivos-items{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            .objetivos-items-item{
+                max-width: 250px;
+                margin: 5px;
+                h1{
+                    font-size: 20px;
+                }
+                p{
+                    color: darken($text-light,3%);
+                    font-size: 13px;
+                }
             }
         }
     }
+
 }
 
 @media screen and (max-width: 600px) {
@@ -61,12 +63,14 @@
     #sublinhado{
         height: 7px;;
     }
-    .objetivos{
-        flex-direction: column;
-        padding: 20px 30px;
-        .objetivos-items{
-            .objetivos-items-item{
-                width: 450px;
+    .objetivos-container{
+        .objetivos{
+            flex-direction: column;
+            padding: 20px 30px;
+            .objetivos-items{
+                .objetivos-items-item{
+                    width: 450px;
+                }
             }
         }
     }

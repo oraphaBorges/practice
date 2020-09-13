@@ -27,36 +27,37 @@ footer {
   width: 560px;
   height: 315px; }
 
-.objetivos {
+.objetivos-container {
   background-color: #fa8334;
   color: #f8f9fa;
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  padding: 20px 100px; }
-  .objetivos .objetivos-title {
-    width: 300px; }
-    .objetivos .objetivos-title h1 {
-      font-size: 30px; }
-    .objetivos .objetivos-title h2 {
-      font-size: 12px; }
-    .objetivos .objetivos-title p {
-      color: #264653;
-      font-size: 100px;
-      margin-top: -100px; }
-  .objetivos .objetivos-items {
+  width: 100%; }
+  .objetivos-container .objetivos {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around; }
-    .objetivos .objetivos-items .objetivos-items-item {
-      max-width: 250px;
-      margin: 5px; }
-      .objetivos .objetivos-items .objetivos-items-item h1 {
-        font-size: 20px; }
-      .objetivos .objetivos-items .objetivos-items-item p {
-        color: #eff1f4;
-        font-size: 13px; }
+    padding: 10px 50px; }
+    .objetivos-container .objetivos .objetivos-title {
+      width: 300px; }
+      .objetivos-container .objetivos .objetivos-title h1 {
+        font-size: 30px; }
+      .objetivos-container .objetivos .objetivos-title h2 {
+        font-size: 12px; }
+      .objetivos-container .objetivos .objetivos-title p {
+        color: #264653;
+        font-size: 100px;
+        margin-top: -100px; }
+    .objetivos-container .objetivos .objetivos-items {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around; }
+      .objetivos-container .objetivos .objetivos-items .objetivos-items-item {
+        max-width: 250px;
+        margin: 5px; }
+        .objetivos-container .objetivos .objetivos-items .objetivos-items-item h1 {
+          font-size: 20px; }
+        .objetivos-container .objetivos .objetivos-items .objetivos-items-item p {
+          color: #eff1f4;
+          font-size: 13px; }
 
 @media screen and (max-width: 600px) {
   #video {
@@ -66,10 +67,10 @@ footer {
   #sublinhado {
     height: 7px; }
 
-  .objetivos {
+  .objetivos-container .objetivos {
     flex-direction: column;
     padding: 20px 30px; }
-    .objetivos .objetivos-items .objetivos-items-item {
+    .objetivos-container .objetivos .objetivos-items .objetivos-items-item {
       width: 450px; } }
 
 /*# sourceMappingURL=styles.css.map */
