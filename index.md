@@ -57,3 +57,28 @@ layout: base
         </div>
     </div>
 </section>
+
+<section class="frase text-center">
+    <img src="assets/imgs/nuvens.png" width="400">
+    <h1> O Futuro é agora,<br>o Futuro é <strong>PRACTICE</strong></h1>
+    <img src="assets/imgs/nuvens.png"  width="400">
+</section>
+
+<section class="equipe">
+<div>
+    <img src="assets/imgs/marca_dagua.png" width="250" style="border-radius: 100%;">
+</div>
+</section>
+
+<section class="contato">
+<h1>Converse conosco</h1>
+<p>Estamos abertos para tirar dúvidas, receber críticas e novas ideias nos nossos portais de comunicaçãos</p>
+<div class="redes-sociais">
+    <a href="mailto:practice@uffs.edu.br?subject=Contato%20again"><img src="assets/imgs/Ícones Redes Sociais/Email Escuro.png"></a>
+    <a href="https://github.com/practice-uffs"><img src="assets/imgs/Ícones Redes Sociais/Github Escuro.png"></a>
+    <a href="https://www.instagram.com/practiceuffs/"><img src="assets/imgs/Ícones Redes Sociais/Instagram Escuro.png"></a>
+    <a href="https://www.youtube.com/channel/UCu3jAl8MTMPkaxb3u0_xESw?view_as=subscriber"><img src="assets/imgs/Ícones Redes Sociais/YouTube Branca.png"></a>
+    <a href="https://practice.uffs.cc/"><img src="assets/imgs/Ícones Redes Sociais/Seta Escura.png"></a>
+</div>
+</section>
+    

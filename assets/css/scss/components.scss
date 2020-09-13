@@ -116,21 +116,38 @@
     }
 }
 .equipe{   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: space-between;
+    align-content: space-between    ;
+
     background-color: $corD;
     color:$text-light;
     width: 100%;
     height: 300px;
 }
-.projetos{
-    background-color: $corE;
-    width: 100%;
-    height: 300px;
-}
+
 .contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
     background-color: $corE;
-    color:$text-light;
+    color:$corA;
     width: 100%;
     height: 300px;
+    .redes-sociais{
+        a{img{
+            width: 100px;
+            padding: 5px;
+            margin: 10px;
+            border: 2px solid $corA;
+            border-radius: 100%;
+        }}
+    }   
 }
 
 @media screen and (max-width: 600px) {
