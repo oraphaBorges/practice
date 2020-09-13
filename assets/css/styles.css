@@ -36,6 +36,20 @@ footer {
   footer #rodape {
     width: 100%;
     align-self: flex-end; }
+  footer .redes-sociais a {
+    margin: 5px; }
+    footer .redes-sociais a img {
+      width: 16px; }
+  footer .copy-right {
+    font-size: 10px; }
+    footer .copy-right p a {
+      color: #90a0b0; }
+    footer .copy-right p a:active {
+      color: #90a0b0; }
+    footer .copy-right p a:after {
+      color: #90a0b0; }
+    footer .copy-right p a:hover {
+      color: #90a0b0; }
 
 #content {
   display: flex;

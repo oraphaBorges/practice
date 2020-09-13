@@ -9,4 +9,30 @@ footer{
         width: 100%;
         align-self: flex-end;
     }
+    .redes-sociais{
+        a{
+            margin: 5px;
+            img{
+                width: 16px;
+            }
+        }
+    }
+    .copy-right{
+        font-size: 10px;
+        p{
+            a{
+                color: darken($text-light, 35%);
+            }
+            a:active{
+                color: darken($text-light, 35%);
+            }
+            a:after{
+                color: darken($text-light, 35%);
+            }
+            a:hover{
+                color: darken($text-light, 35%);
+            }
+        }
+
+    }
 }
