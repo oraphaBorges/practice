@@ -1,15 +1,19 @@
 ---
 layout: base
 ---
-<img id="sublinhado" src="assets/imgs/sublinhado.png"><img>
+<img class="capa-yellow" src="assets/imgs/ondasYellow.png">
+<section class="video">
+    <h1 class="text-center">Um novo olhar sobre o futuro!</h1>
+    <iframe id="video" src="https://www.youtube.com/embed/V6kS3fPytiQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</section>
 
-<iframe id="video" src="https://www.youtube.com/embed/V6kS3fPytiQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<img id="sublinhado" src="assets/imgs/sublinhado.png"><img>
-
-<article class="container text-justify text-dark my-3 px-5">
-    <p>O Programa Practice objetiva estruturar ambientes e capacitar agentes educacionais para a produção e mediação de conteúdos por meio de tecnologias baseadas em metodologias ativas de modo a contribuir para a promoção da inovação no processo de ensino-aprendizagem em componentes curriculares e extracurriculares da UFFS.</p>
-</article>
+<img class="capa-white" src="assets/imgs/ondasWhite.png">
+<section class="apresentacao">
+    <article class="container text-center text-dark">
+        <h1>O Que é o Programa?</h1>
+        <p>O Programa Practice objetiva estruturar ambientes e capacitar agentes educacionais para a produção e mediação de conteúdos por meio de tecnologias baseadas em metodologias ativas de modo a contribuir para a promoção da inovação no processo de ensino-aprendizagem em componentes curriculares e extracurriculares da UFFS.</p>
+    </article>
+</section>
 
 <section class="objetivos-container">
     <div class="objetivos container">
