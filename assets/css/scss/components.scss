@@ -114,6 +114,9 @@
             color: $corD;
         }
     }
+    img{
+        width: 400px;
+    }
 }
 .servico{   
     display: flex;
@@ -169,6 +172,13 @@
         }}
     }   
 }
+@media screen and (max-width: 1000px) {
+    .frase{
+        img{
+            width: 250px;
+        }
+    }
+}
 
 @media screen and (max-width: 600px) {
     .video{
@@ -199,6 +209,29 @@
                 }
             }
         }
+    }
+    .frase{
+        flex-direction: column;
+        img{
+            width: 100px;
+        }
+    }
+
+    .servico{   
+        height: 650px;
+    }
+    .carousel-caption{
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    .contato{
+
+        height: 400px;
+        .redes-sociais{
+            a{img{
+                width: 50px;
+            }}
+        }   
     }
 }
 @media screen and (max-width: 480px) {
