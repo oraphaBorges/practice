@@ -7,7 +7,10 @@ header {
 
 @media screen and (max-width: 600px) {
   header #logo {
-    width: 350px; } }
+    width: 300px; } }
+@media screen and (max-width: 480px) {
+  header #logo {
+    width: 280px; } }
 footer {
   display: flex;
   flex-direction: column; }
