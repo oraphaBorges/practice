@@ -139,7 +139,28 @@ footer {
     color: #2f7b9a; }
   .frase img {
     width: 400px; }
-
+  .frase #nuvem-l {
+    position: relative;
+    animation: leftA 5s 1;
+    animation-direction: alternate; }
+@keyframes leftA {
+  0% {
+    left: -1500px;
+    top: 0px; }
+  100% {
+    left: 0px;
+    top: 0px; } }
+  .frase #nuvem-r {
+    position: relative;
+    animation: rigthA 5s 1;
+    animation-direction: alternate; }
+@keyframes rigthA {
+  0% {
+    left: 1500px;
+    top: 0px; }
+  100% {
+    left: 0px;
+    top: 0px; } }
 .servico {
   display: flex;
   flex-direction: column;
@@ -182,6 +203,9 @@ footer {
     margin: 10px;
     border: 2px solid #264653;
     border-radius: 100%; }
+  .contato .redes-sociais a:hover img {
+    filter: contrast(200%) invert(70%);
+    transition: 1s; }
 
 @media screen and (max-width: 1000px) {
   .frase img {

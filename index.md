@@ -60,9 +60,9 @@ layout: base
 </section>
 
 <section class="frase text-center">
-    <img src="assets/imgs/nuvens.png" alt="núves no padrão de cores do programa Practice">
+    <img id="nuvem-l" src="assets/imgs/nuvens.png" alt="núves no padrão de cores do programa Practice">
     <h1> O Futuro é agora,<br>o Futuro é <strong>PRACTICE</strong></h1>
-    <img src="assets/imgs/nuvens.png" alt="núves no padrão de cores do programa Practice">
+    <img id="nuvem-r" src="assets/imgs/nuvens.png" alt="núves no padrão de cores do programa Practice">
 </section>
 
 <section class="servico">
@@ -132,7 +132,7 @@ layout: base
 <p>Estamos abertos para tirar dúvidas, receber críticas e novas ideias nos nossos portais de comunicaçãos</p>
 <div class="redes-sociais">
     <a href="mailto:practice@uffs.edu.br?subject=Contato"><img src="assets/imgs/Ícones Redes Sociais/Email Escuro.png" alt="ícone do uma carta para o email"></a>
-    <a href="https://github.com/practice-uffs"><img src="assets/imgs/Ícones Redes Sociais/Github Escuro.png" alt="logo do github">></a>
+    <a href="https://github.com/practice-uffs"><img src="assets/imgs/Ícones Redes Sociais/Github Escuro.png" alt="logo do github"></a>
     <a href="https://www.instagram.com/practiceuffs/"><img src="assets/imgs/Ícones Redes Sociais/Instagram Escuro.png" alt="logo do instagram"></a>
     <a href="https://www.youtube.com/channel/UCu3jAl8MTMPkaxb3u0_xESw?view_as=subscriber"><img src="assets/imgs/Ícones Redes Sociais/YouTube Branca.png" alt="logo do youtube"></a>
     <a href="https://practice.uffs.cc/"><img src="assets/imgs/Ícones Redes Sociais/Seta Escura.png" alt="ícone da seta do mouse"></a>

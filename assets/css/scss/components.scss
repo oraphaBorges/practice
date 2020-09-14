@@ -116,7 +116,27 @@
     }
     img{
         width: 400px;
+  
     }
+    #nuvem-l{
+        position: relative;
+        animation: leftA 5s 1;
+        animation-direction: alternate;
+    }
+    @keyframes leftA {
+        0%   {left: -1500px; top: 0px;}
+        100% {left: 0px; top: 0px;}
+      }    
+      
+      #nuvem-r{
+        position: relative;
+        animation: rigthA 5s 1;
+        animation-direction: alternate;
+    }
+    @keyframes rigthA {
+        0%   {left: 1500px; top: 0px;}
+        100% {left: 0px; top: 0px;}
+      }
 }
 .servico{   
     display: flex;
@@ -169,6 +189,10 @@
             margin: 10px;
             border: 2px solid $corA;
             border-radius: 100%;
+        }}
+        a:hover{img{
+            filter:contrast(200%) invert(70%);
+            transition: 1s;;
         }}
     }   
 }
