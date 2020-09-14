@@ -1,13 +1,14 @@
 ---
 layout: base
 ---
-<img class="capa-yellow" src="assets/imgs/ondasYellow.png">
+<img class="capa-yellow" src="assets/imgs/ondasYellow.png" alt="ondas com os padroes de cores do projeto">
 <section class="video">
     <h1 class="text-center">Um novo olhar sobre o futuro!</h1>
-    <iframe id="video" src="https://www.youtube.com/embed/V6kS3fPytiQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe id="video" src="https://www.youtube.com/embed/V6kS3fPytiQ" frameborder="0" alt="video de apresentação do programa Practice"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </section>
 
-<img class="capa-white" src="assets/imgs/ondasWhite.png">
+<img class="capa-white" src="assets/imgs/ondasWhite.png" alt="ondas com os padroes de cores do projeto">
 <section class="apresentacao">
     <article class="container text-center text-dark">
         <h1>O Que é o Programa?</h1>
@@ -25,32 +26,32 @@ layout: base
 
         <div class="objetivos-items text-justify ">
             <div class="objetivos-items-item">
-                <span><img src="assets/imgs/icons/photo-camera.png"></span>
+                <span><img src="assets/imgs/icons/photo-camera.png" alt="ícone de camera"></span>
                 <h1>Estutura Multimidia</h1>
                 <p>Estruturação e disponibilização de ambientes para a gravação, transmissão, edição e produção de conteúdos educacionais.</p>
             </div>        
             <div class="objetivos-items-item">
-                <span><img src="assets/imgs/icons/meeting.png"></span>
+                <span><img src="assets/imgs/icons/meeting.png" alt="ícone de reunião de videochamada"></span>
                 <h1>Adaptação de Ambientes</h1>
                 <p>Adaptação de algumas salas de aulas atuais para o oferecimento de aula em tempo real por telepresença.</p>
             </div>        
             <div class="objetivos-items-item">
-                <span><img src="assets/imgs/icons/training.png"></span>
+                <span><img src="assets/imgs/icons/training.png" alt="ícone de uma reunião de treinamento"></span>
                 <h1>Capacitação</h1>
                 <p>Capacitação didática de docentes para a oferta de aulas via telepresença da UFFS voltadas à interação, criação, curadoria e distribuição de conteúdos de acesso público</p>
             </div>        
             <div class="objetivos-items-item">
-                <span><img src="assets/imgs/icons/tv.png"></span>
+                <span><img src="assets/imgs/icons/tv.png" alt="ícone de uma televisão"></span>
                 <h1>UFFSTV</h1>
                 <p>Plataforma exclusivamente digital, UFFSTV para distribuição de conteúdos de acesso público</p>
             </div>       
             <div class="objetivos-items-item">
-                <span><img src="assets/imgs/icons/profile.png"></span>
+                <span><img src="assets/imgs/icons/profile.png" alt="ícone de tela com um pessoa dentro"></span>
                 <h1>Suporte aos Estudantes e setotes da UFFS</h1>
                 <p>Capacitação dos estudantes e sugestão de adequação de programas de Assistência Estudantil e adequação do acervo bibliotecário em plataforma digital</p>
             </div>        
             <div class="objetivos-items-item">
-                <span><img src="assets/imgs/icons/computer.png"></span>
+                <span><img src="assets/imgs/icons/computer.png" alt="ícone de uma tela com uma estrutura molecular dentro"></span>
                 <h1>Divulgação Ciêntifica</h1>
                 <p>Contribuir para a curricularização da extensão a partir da produção de conteúdos voltados para a Educação Básica e os mais variados setores produtivos das iniciativas pública e privada.</p>
             </div>
@@ -59,9 +60,9 @@ layout: base
 </section>
 
 <section class="frase text-center">
-    <img src="assets/imgs/nuvens.png">
+    <img src="assets/imgs/nuvens.png" alt="núves no padrão de cores do programa Practice">
     <h1> O Futuro é agora,<br>o Futuro é <strong>PRACTICE</strong></h1>
-    <img src="assets/imgs/nuvens.png">
+    <img src="assets/imgs/nuvens.png" alt="núves no padrão de cores do programa Practice">
 </section>
 
 <section class="servico">
@@ -130,11 +131,11 @@ layout: base
 <h1>Entre em Contato</h1>
 <p>Estamos abertos para tirar dúvidas, receber críticas e novas ideias nos nossos portais de comunicaçãos</p>
 <div class="redes-sociais">
-    <a href="mailto:practice@uffs.edu.br?subject=Contato"><img src="assets/imgs/Ícones Redes Sociais/Email Escuro.png"></a>
-    <a href="https://github.com/practice-uffs"><img src="assets/imgs/Ícones Redes Sociais/Github Escuro.png"></a>
-    <a href="https://www.instagram.com/practiceuffs/"><img src="assets/imgs/Ícones Redes Sociais/Instagram Escuro.png"></a>
-    <a href="https://www.youtube.com/channel/UCu3jAl8MTMPkaxb3u0_xESw?view_as=subscriber"><img src="assets/imgs/Ícones Redes Sociais/YouTube Branca.png"></a>
-    <a href="https://practice.uffs.cc/"><img src="assets/imgs/Ícones Redes Sociais/Seta Escura.png"></a>
+    <a href="mailto:practice@uffs.edu.br?subject=Contato"><img src="assets/imgs/Ícones Redes Sociais/Email Escuro.png" alt="ícone do uma carta para o email"></a>
+    <a href="https://github.com/practice-uffs"><img src="assets/imgs/Ícones Redes Sociais/Github Escuro.png" alt="logo do github">></a>
+    <a href="https://www.instagram.com/practiceuffs/"><img src="assets/imgs/Ícones Redes Sociais/Instagram Escuro.png" alt="logo do instagram"></a>
+    <a href="https://www.youtube.com/channel/UCu3jAl8MTMPkaxb3u0_xESw?view_as=subscriber"><img src="assets/imgs/Ícones Redes Sociais/YouTube Branca.png" alt="logo do youtube"></a>
+    <a href="https://practice.uffs.cc/"><img src="assets/imgs/Ícones Redes Sociais/Seta Escura.png" alt="ícone da seta do mouse"></a>
 </div>
 </section>
     
