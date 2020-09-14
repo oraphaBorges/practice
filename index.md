@@ -112,7 +112,7 @@ layout: base
             <img class="servico-img" src="assets/imgs/servicos/eventos.svg" alt="slide Evento Virtual">
             <div class="carousel-caption">
                 <h5>Evento Virtual</h5>
-                <p>Atuação no auxilio na realização de eventos virtuai, como semanas acadêmicas.</p>
+                <p>Atuação no auxilio na realização de eventos virtuais, como semanas acadêmicas.</p>
               </div>
           </div>
         </div>
